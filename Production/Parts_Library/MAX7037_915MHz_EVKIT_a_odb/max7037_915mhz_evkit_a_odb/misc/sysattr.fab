@@ -1,0 +1,166 @@
+UNITS=INCH
+
+BOOLEAN {
+    NAME=.out_drill_full
+    PROMPT=Output Drill Full
+    ENTITY=step
+    DEF=NO
+    GROUP=Custom
+}
+
+BOOLEAN {
+    NAME=.out_drill_optional
+    PROMPT=Output Drill Optional
+    ENTITY=step;feature
+    DEF=NO
+    GROUP=Feature
+}
+
+BOOLEAN {
+    NAME=.out_rout_optional
+    PROMPT=Output Rout Optional
+    ENTITY=step;feature
+    DEF=NO
+    GROUP=Feature
+}
+
+BOOLEAN {
+    NAME=.array_with_rotation
+    PROMPT=Array with Rotation
+    ENTITY=step
+    DEF=NO
+    GROUP=Custom
+}
+
+BOOLEAN {
+    NAME=.out_mirror
+    PROMPT=Output Mirror
+    ENTITY=layer
+    DEF=NO
+    GROUP=Custom
+}
+
+BOOLEAN {
+    NAME=.lpol_done
+    PROMPT=Polarity Order was Done
+    ENTITY=layer
+    DEF=NO
+    GROUP=Custom
+}
+
+
+TEXT {
+    NAME=.global_camtek_aoiset
+    PROMPT=Global CAMTEK aoi-set
+    MIN_LEN=0
+    MAX_LEN=80
+    ENTITY=job
+    DEF=
+    GROUP=Custom
+    OPTIONS=
+    DEF_OPT=
+}
+
+TEXT {
+    NAME=.out_name
+    PROMPT=Output Name
+    MIN_LEN=0
+    MAX_LEN=64
+    ENTITY=step
+    DEF=
+    GROUP=Custom
+    OPTIONS=
+    DEF_OPT=
+}
+
+
+OPTION {
+    NAME=.out_angle
+    PROMPT=Output Angle
+    OPTIONS=0.0;90.0;180.0;270.0
+    DELETED=NO;NO;NO;NO
+    ENTITY=layer
+    DEF=0.0
+    GROUP=Custom
+}
+
+OPTION {
+    NAME=.out_polarity
+    PROMPT=Output Polarity
+    OPTIONS=positive;negative
+    DELETED=NO;NO
+    ENTITY=layer
+    DEF=positive
+    GROUP=Custom
+}
+
+
+INTEGER {
+    NAME=.out_drill_order
+    PROMPT=Output Drill Order
+    MIN_VAL=-10000
+    MAX_VAL=10000
+    ENTITY=step
+    DEF=0
+    GROUP=Custom
+}
+
+INTEGER {
+    NAME=.out_rout_order
+    PROMPT=Output Rout Order
+    MIN_VAL=-10000
+    MAX_VAL=10000
+    ENTITY=step
+    DEF=0
+    GROUP=Custom
+}
+
+
+FLOAT {
+    NAME=.out_comp
+    PROMPT=Output Compensation
+    MIN_VAL=-100
+    MAX_VAL=100
+    ENTITY=layer
+    DEF=0
+    GROUP=Custom
+    UNITS=
+    UNIT_TYPE=
+}
+
+FLOAT {
+    NAME=.out_x_scale
+    PROMPT=Output X Scale
+    MIN_VAL=9.999999974752427e-007
+    MAX_VAL=5
+    ENTITY=layer
+    DEF=1
+    GROUP=Custom
+    UNITS=
+    UNIT_TYPE=
+}
+
+FLOAT {
+    NAME=.out_y_scale
+    PROMPT=Output Y Scale
+    MIN_VAL=9.999999974752427e-007
+    MAX_VAL=5
+    ENTITY=layer
+    DEF=1
+    GROUP=Custom
+    UNITS=
+    UNIT_TYPE=
+}
+
+FLOAT {
+    NAME=.et_adjacency
+    PROMPT=Adjacency Distance (ET)
+    MIN_VAL=0
+    MAX_VAL=1000
+    ENTITY=layer
+    DEF=20
+    GROUP=Custom
+    UNITS=MIL_MICRON
+    UNIT_TYPE=DISTANCE
+}
+

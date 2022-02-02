@@ -1,0 +1,50 @@
+UNITS=INCH
+
+
+TEXT {
+    NAME=.eco
+    PROMPT=Engineering Change List
+    MIN_LEN=0
+    MAX_LEN=100
+    ENTITY=step
+    DEF=
+    GROUP=Custom
+    OPTIONS=
+    DEF_OPT=
+}
+
+TEXT {
+    NAME=.backdrill_penetrate_stop_layer
+    PROMPT=Backdrill not Penetrate Layer Name
+    MIN_LEN=0
+    MAX_LEN=64
+    ENTITY=layer
+    DEF=
+    GROUP=Custom
+    OPTIONS=
+    DEF_OPT=
+}
+
+
+OPTION {
+    NAME=.hdi_assembly_tech
+    PROMPT=HDI Assembly Technology
+    OPTIONS=none;wirebond;flipchip;hybrid
+    DELETED=NO;NO;NO;NO
+    ENTITY=layer
+    DEF=none
+    GROUP=Custom
+}
+
+OPTION {
+    NAME=.layer_side
+    PROMPT=Layer Side
+    OPTIONS=top;bottom;inner;none
+    DELETED=NO;NO;NO;NO
+    ENTITY=layer
+    DEF=none
+    GROUP=Custom
+}
+
+
+

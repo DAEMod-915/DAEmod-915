@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri C:/Users/Peter/OneDrive/GitHub/DAEMod-915/Production/Parts_Library/digikey-kicad-library-master/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri C:/Users/Peter/OneDrive/GitHub/DAEMod-915/Production/Parts_Library/ul_MAX7037EGL-/KiCAD/2022-01-23_00-32-37/footprints.pretty)(options "")(descr ""))
+)

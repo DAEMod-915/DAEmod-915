@@ -1,0 +1,80 @@
+UNITS=INCH
+
+
+TEXT {
+    NAME=.assembly_proc_top
+    PROMPT=Assembly Process (Top)
+    MIN_LEN=0
+    MAX_LEN=20
+    ENTITY=step
+    DEF=
+    GROUP=Custom
+    OPTIONS=
+    DEF_OPT=
+}
+
+TEXT {
+    NAME=.assembly_proc_bottom
+    PROMPT=Assembly Process (Bottom)
+    MIN_LEN=0
+    MAX_LEN=20
+    ENTITY=step
+    DEF=
+    GROUP=Custom
+    OPTIONS=
+    DEF_OPT=
+}
+
+
+OPTION {
+    NAME=.fs_direction_top
+    PROMPT=Flow Solder Direction (Top)
+    OPTIONS=left2right;top2bottom;right2left;bottom2top
+    DELETED=NO;NO;NO;NO
+    ENTITY=step
+    DEF=left2right
+    GROUP=Custom
+}
+
+OPTION {
+    NAME=.fs_direction_bottom
+    PROMPT=Flow Solder Direction (Bottom)
+    OPTIONS=left2right;top2bottom;right2left;bottom2top
+    DELETED=NO;NO;NO;NO
+    ENTITY=step
+    DEF=right2left
+    GROUP=Custom
+}
+
+OPTION {
+    NAME=.smt_direction_top
+    PROMPT=SMT Direction (Top)
+    OPTIONS=left2right;top2bottom;right2left;bottom2top
+    DELETED=NO;NO;NO;NO
+    ENTITY=step
+    DEF=left2right
+    GROUP=Custom
+}
+
+OPTION {
+    NAME=.smt_direction_bottom
+    PROMPT=SMT Direction (Bottom)
+    OPTIONS=left2right;top2bottom;right2left;bottom2top
+    DELETED=NO;NO;NO;NO
+    ENTITY=step
+    DEF=right2left
+    GROUP=Custom
+}
+
+OPTION {
+    NAME=.axi_direction
+    PROMPT=Assembly X-Ray Inspection Direction
+    OPTIONS=left2right;top2bottom;right2left;bottom2top
+    DELETED=NO;NO;NO;NO
+    ENTITY=step
+    DEF=left2right
+    GROUP=Custom
+}
+
+
+
