@@ -1,0 +1,7 @@
+Reference, Value, Footprint, Datasheet, Category, DK_Datasheet_Link, DK_Detail_Page, Description, Digi-Key_PN, Family, MPN, Manufacturer, Status
+"J1","1909763-1","digikey-footprints:UMCoax_Pin_1909763-1","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English","Connectors, Interconnects","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English","/product-detail/en/te-connectivity-amp-connectors/1909763-1/A118077CT-ND/4729711","CONN UMCC JACK STR 50OHM SMD","A118077CT-ND","Coaxial Connectors (RF)","1909763-1","TE Connectivity AMP Connectors","Active"
+"J3","Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","~"
+"J4","Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","~"
+"J5","Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","~"
+"J2","Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","~"
+"U1","MAX7037EGL+","footprints:MAX7037EGL&plus_",""
