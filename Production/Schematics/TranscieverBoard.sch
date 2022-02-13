@@ -16,26 +16,6 @@ $EndDescr
 Wire Wire Line
 	2850 4150 2850 2150
 $Comp
-L dk_Coaxial-Connectors-RF:1909763-1 J1
-U 1 1 61EF2637
-P 2850 1950
-F 0 "J1" H 2928 2175 50  0000 C CNN
-F 1 "1909763-1" H 2928 2084 50  0000 C CNN
-F 2 "digikey-footprints:UMCoax_Pin_1909763-1" H 3050 2150 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" H 3050 2250 60  0001 L CNN
-F 4 "A118077CT-ND" H 3050 2350 60  0001 L CNN "Digi-Key_PN"
-F 5 "1909763-1" H 3050 2450 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 3050 2550 60  0001 L CNN "Category"
-F 7 "Coaxial Connectors (RF)" H 3050 2650 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" H 3050 2750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/1909763-1/A118077CT-ND/4729711" H 3050 2850 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN UMCC JACK STR 50OHM SMD" H 3050 2950 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 3050 3050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3050 3150 60  0001 L CNN "Status"
-	1    2850 1950
-	0    -1   1    0   
-$EndComp
-$Comp
 L Connector:Conn_01x10_Male J3
 U 1 1 61F0A264
 P 3800 4050
@@ -189,4 +169,24 @@ Wire Wire Line
 	4000 4150 2850 4150
 Wire Wire Line
 	3050 4050 4000 4050
+$Comp
+L dk_Coaxial-Connectors-RF:5-1814400-1 J1
+U 1 1 620A4B48
+P 2850 1950
+F 0 "J1" H 2928 2175 50  0000 C CNN
+F 1 "5-1814400-1" H 2928 2084 50  0000 C CNN
+F 2 "digikey-footprints:RF_SMA_RightAngle_5-1814400-1" H 3050 2150 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814400&DocType=Customer+Drawing&DocLang=English" H 3050 2250 60  0001 L CNN
+F 4 "A97593-ND" H 3050 2350 60  0001 L CNN "Digi-Key_PN"
+F 5 "5-1814400-1" H 3050 2450 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 3050 2550 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 3050 2650 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814400&DocType=Customer+Drawing&DocLang=English" H 3050 2750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981" H 3050 2850 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN SMA JACK R/A 50 OHM PCB" H 3050 2950 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 3050 3050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3050 3150 60  0001 L CNN "Status"
+	1    2850 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
