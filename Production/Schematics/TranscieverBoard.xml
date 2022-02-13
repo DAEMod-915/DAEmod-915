@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Peter\OneDrive\GitHub\DAEMod-915\Production\Schematics\TranscieverBoard.sch</source>
+    <date>2/13/2022 3:29:40 PM</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TranscieverBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F0A264</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F0B789</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F0F396</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F063A7</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MAX7037EGL+</value>
+      <footprint>footprints:MAX7037EGL&amp;plus_</footprint>
+      <libsource lib="2022-01-23_00-32-37" part="MAX7037EGL+" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ECA457</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>5-1814400-1</value>
+      <footprint>digikey-footprints:RF_SMA_RightAngle_5-1814400-1</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1814400&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1814400&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="DK_Detail_Page">/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981</field>
+        <field name="Description">CONN SMA JACK R/A 50 OHM PCB</field>
+        <field name="Digi-Key_PN">A97593-ND</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="MPN">5-1814400-1</field>
+        <field name="Manufacturer">TE Connectivity AMP Connectors</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Coaxial-Connectors-RF" part="5-1814400-1" description="CONN SMA JACK R/A 50 OHM PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620A4B48</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2022-01-23_00-32-37" part="MAX7037EGL+">
+      <footprints>
+        <fp>21-0635_G4066N+1_MXM</fp>
+        <fp>21-0635_G4066N+1_MXM-M</fp>
+        <fp>21-0635_G4066N+1_MXM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX7037EGL+</field>
+        <field name="Footprint">21-0635_G4066N+1_MXM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET" type="unspc"/>
+        <pin num="2" name="WXIDIO" type="unspc"/>
+        <pin num="3" name="WXODIO" type="unspc"/>
+        <pin num="4" name="WAKE0" type="BiDi"/>
+        <pin num="5" name="WAKE1" type="BiDi"/>
+        <pin num="6" name="UVDD" type="power_in"/>
+        <pin num="7" name="VDDLIM" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="XTOT" type="unspc"/>
+        <pin num="10" name="XTIN" type="unspc"/>
+        <pin num="11" name="SVDD" type="power_in"/>
+        <pin num="12" name="VTUNE" type="unspc"/>
+        <pin num="13" name="TEST2" type="BiDi"/>
+        <pin num="14" name="RFGND1" type="power_in"/>
+        <pin num="15" name="RF_N" type="unspc"/>
+        <pin num="16" name="RF_P" type="unspc"/>
+        <pin num="17" name="RFGND2" type="power_in"/>
+        <pin num="18" name="RVDD" type="power_in"/>
+        <pin num="19" name="VBG" type="unspc"/>
+        <pin num="20" name="TEST0" type="BiDi"/>
+        <pin num="21" name="ADIO0" type="BiDi"/>
+        <pin num="22" name="ADIO1" type="BiDi"/>
+        <pin num="23" name="ADIO2" type="BiDi"/>
+        <pin num="24" name="ADIO3" type="BiDi"/>
+        <pin num="25" name="ADIO4" type="BiDi"/>
+        <pin num="26" name="ADIO5" type="BiDi"/>
+        <pin num="27" name="ADIO6" type="BiDi"/>
+        <pin num="28" name="ADIO7" type="BiDi"/>
+        <pin num="29" name="BIST_DONE" type="unspc"/>
+        <pin num="30" name="TEST1" type="BiDi"/>
+        <pin num="31" name="BIST_EN" type="unspc"/>
+        <pin num="32" name="TEST3" type="BiDi"/>
+        <pin num="33" name="SCSEDIO0" type="unspc"/>
+        <pin num="34" name="SCLKDIO1" type="unspc"/>
+        <pin num="35" name="WSDADIO2" type="unspc"/>
+        <pin num="36" name="RSDADIO3" type="unspc"/>
+        <pin num="37" name="BIST_PASS" type="unspc"/>
+        <pin num="38" name="IOVDD" type="power_in"/>
+        <pin num="39" name="DVDD" type="power_in"/>
+        <pin num="40" name="TM_EN" type="unspc"/>
+        <pin num="41" name="EPAD" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Male">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Coaxial-Connectors-RF" part="5-1814400-1">
+      <description>CONN SMA JACK R/A 50 OHM PCB</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1814400&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5-1814400-1</field>
+        <field name="Footprint">digikey-footprints:RF_SMA_RightAngle_5-1814400-1</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1814400&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Digi-Key_PN">A97593-ND</field>
+        <field name="MPN">5-1814400-1</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1814400&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="DK_Detail_Page">/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981</field>
+        <field name="Description">CONN SMA JACK R/A 50 OHM PCB</field>
+        <field name="Manufacturer">TE Connectivity AMP Connectors</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2022-01-23_00-32-37">
+      <uri>C:/Users/Peter/OneDrive/GitHub/DAEMod-915/Production/Parts_Library/ul_MAX7037EGL-/KiCAD/2022-01-23_00-32-37/2022-01-23_00-32-37.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="dk_Coaxial-Connectors-RF">
+      <uri>C:/Users/Peter/OneDrive/GitHub/DAEMod-915/Production/Parts_Library/digikey-kicad-library-master/digikey-symbols/dk_Coaxial-Connectors-RF.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J5-Pad10)">
+      <node ref="U1" pin="21"/>
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="2" name="Net-(J5-Pad9)">
+      <node ref="J5" pin="9"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="3" name="Net-(J5-Pad8)">
+      <node ref="J5" pin="8"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="4" name="Net-(J5-Pad7)">
+      <node ref="U1" pin="24"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="5" name="Net-(J5-Pad6)">
+      <node ref="U1" pin="25"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="6" name="Net-(J5-Pad5)">
+      <node ref="J5" pin="5"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="7" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="8" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="16" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="17" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="18" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="19" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(J1-Pad1)">
+      <node ref="U1" pin="16"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="24" name="Net-(J5-Pad2)">
+      <node ref="U1" pin="29"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="26" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="27" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="28" name="Net-(J4-Pad9)">
+      <node ref="U1" pin="32"/>
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="29" name="Net-(J4-Pad10)">
+      <node ref="U1" pin="31"/>
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="30" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="31" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="32" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="33" name="Net-(J3-Pad4)">
+      <node ref="U1" pin="14"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="34" name="Net-(J3-Pad3)">
+      <node ref="U1" pin="13"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="35" name="Net-(J3-Pad2)">
+      <node ref="U1" pin="12"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="36" name="Net-(J3-Pad10)">
+      <node ref="J3" pin="10"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="37" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="39" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="40" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="41" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="4"/>
+    </net>
+  </nets>
+</export>

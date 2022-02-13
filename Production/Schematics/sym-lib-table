@@ -150,4 +150,5 @@
   (lib (name dk_TVS-Mixed-Technology)(type Legacy)(uri C:/Users/Peter/OneDrive/GitHub/DAEMod-915/Production/Parts_Library/digikey-kicad-library-master/digikey-symbols/dk_TVS-Mixed-Technology.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri C:/Users/Peter/OneDrive/GitHub/DAEMod-915/Production/Parts_Library/digikey-kicad-library-master/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
   (lib (name 2022-01-23_00-32-37)(type Legacy)(uri C:/Users/Peter/OneDrive/GitHub/DAEMod-915/Production/Parts_Library/ul_MAX7037EGL-/KiCAD/2022-01-23_00-32-37/2022-01-23_00-32-37.lib)(options "")(descr ""))
+  (lib (name ul_C3E-16-000-8-2050-X1-CT)(type Legacy)(uri C:/Users/Peter/OneDrive/GitHub/DAEMod-915/Production/Parts_Library/ul_C3E-16-000-8-2050-X1-CT/KiCAD/2022-02-13_21-48-13/2022-02-13_21-48-13.lib)(options "")(descr ""))
 )
