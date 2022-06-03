@@ -1,0 +1,6 @@
+[submodule "EFR32"]
+	path = EFR32
+	url = git@github.com:DAEmod-915/DAEmod_EFR32
+[submodule "ESP32"]
+	path = ESP32
+	url = git@github.com:DAEmod-915/DAEmod_ESP32
